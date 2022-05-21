@@ -1,9 +1,10 @@
-import { BackgroundBody } from "../backgroundBody";
+import { BackgroundBody } from "../BackgroundBody";
+import { Container } from "../Container";
 
 export default function Home () {
     return (
         <>
-           <BackgroundBody />
+            <Container />
         </>
     )
 }
